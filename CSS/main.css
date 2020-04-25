@@ -1,0 +1,120 @@
+body{
+    background-color: #0D2D65;
+    background-image: 
+        url(images/blue.png), 
+        url(images/green.png), 
+        url(images/purple.png), 
+        url(images/pink.png);
+    background-position: 
+        top -80px left -10px, 
+        top -20px right -90px, 
+        bottom -30px right -70px, 
+        bottom -70px left -32px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 150px;
+    background-attachment: fixed;
+    font-family: BlinkMacSystemFont, 
+                'Segoe UI', Roboto, Oxygen,
+                 sans-serif;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    align-items: center;
+    padding-bottom: 2em;
+}
+
+.logo{
+    padding: 30px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0em;
+}
+
+.container-input{
+    max-width: 28rem;
+    background-color: white;
+    border-radius: 20px 20px 20px 5px;
+    padding: 40px;
+    margin: 0.5rem;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #083e9e;
+    margin: 0em;
+}
+.welcome{
+    font-family: Karla, sans-serif;
+    text-align: center;
+    font-size: .875rem;
+    color: #4a5568;
+}
+
+label{
+    font-family: sans-serif;
+    color: #093473;
+    line-height: 2;
+    font-size: .75em;
+    font-weight: bold;
+}
+
+select{
+    padding:18px;
+    outline: none;
+    border: none;
+    background-color: #EDF2F7;
+    border-radius: 8px;
+    width: 100%;
+}
+
+option{
+    padding:15px;
+    outline: none;
+    border: 5px solid #dedede;
+    border-radius: 3px 3px 3px 3px;
+}
+
+button{
+    padding: 20px 15px;
+    margin-top: 10px;
+    background-color: rgb(8, 62, 158);
+    border-radius: 10px 10px 10px 2px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: none;
+    width: 100%;
+    color: beige;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+input{
+    
+    padding:20px;
+    outline: none;
+    border: 0px solid #dedede;
+    background-color: #EDF2F7;
+    border-radius: 3px 3px 3px 3px;
+    display: block;
+    width: -webkit-fill-available;
+    margin-bottom: 35px;   
+}
+.log{
+    font-size: .75rem;
+    margin-top: 1.5rem;
+    font-weight: 400;
+    font-family: Karla, sans-serif;
+    color: white;
+    text-decoration: none;
+}
